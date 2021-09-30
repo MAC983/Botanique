@@ -16,7 +16,7 @@ body {
 
 h1 {
     border: 0.4em solid transparent;
-    border-image: url("/img/vector-sin-fondo.png") 20 round;
+    border-image: url("../img/vector-sin-fondo.png") 20 round;
     background-color: rgb(223, 220, 213);
     display: inline;
     padding: 0.5rem;
