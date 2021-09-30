@@ -52,7 +52,7 @@ span {
 }
 
 figcaption {
-    background-image: url("../img/ceibo-favicon.png");
+    background-image: url("/img/ceibo-favicon.png");
     background-repeat: no-repeat;
     
 }
