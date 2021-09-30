@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Comienzo de estilos generales body, h1, section, p */
+
+body {
+    display: block;
+    text-align: center;
+    background-color: rgb( 230, 226, 214);
+    margin: 1em;
+}
+
+h1 {
+    border: 0.4em solid transparent;
+    border-image: url("/img/vector-sin-fondo.png") 20 round;
+    background-color: rgb(223, 220, 213);
+    display: inline;
+    padding: 0.5rem;
+    box-shadow: inset 0 0 0 0.12em rgb(206, 183, 161);
+}
+
+section {
+    display: inline;
+    justify-content: center;
+    width: 100% auto;
+}
+
+
+p {
+    display: inline;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: .5rem 0;
+    
+}
+
+/* Fin de estilos generales body, h1, section, p  */
+
+/* Comienzo de estilos generales de cards */
+
+span {
+    text-align: right;
+    margin-left: 2.5rem;
+    padding: 0.5rem;
+}
+
+figcaption {
+    background-image: url("/img/ceibo-favicon.png");
+    background-repeat: no-repeat;
+    
+}
+
+figcaption >span {
+    height: 1rem;
+    color: black;
+    font-family:'Markazi Text', serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+/* Fin de estilos generales de cards */
+
+/* Comienzo de estilos class caja title */
+
+.title {
+    width: 80% auto;
+    text-align: center;
+    margin: 3rem 4rem;
+    padding: 1rem 0;
+    font-family:'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+/* Fin de estilos class caja title  */
+
+/* Comienzo de estilos main, cards container, cards, card content y card-img */
+
+.cards-container {
+    width: 100% auto;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 1rem 3rem;
+    padding: 1rem 2.5rem;
+}
+
+.cards {
+    width: 100% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 3px outset rgb(218, 214, 208);
+    background-color: rgb(235, 230, 224);
+    margin: 1.5rem 3rem;
+    padding: 0.3rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 12px 0 rgb(150, 114, 114);
+    
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    width: 100% auto;
+    align-items: center;
+
+}
+
+.card-img {
+    width: 12rem;
+    height: 11rem;
+    border: 3.5px inset rgb(247, 171, 162);
+    background-color: rgb(243, 217, 190);
+}
+
+/* Fin de estilos main, cards container, cards, card content y card-img */
+
