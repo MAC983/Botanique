@@ -54,7 +54,7 @@ span {
 figcaption {
     background-image: url("../img/ceibo-favicon.png");
     background-repeat: no-repeat;
-    
+    margin: 0.5rem;
 }
 
 figcaption >span {
@@ -63,6 +63,7 @@ figcaption >span {
     font-family:'Markazi Text', serif;
     font-weight: 600;
     font-size: 1em;
+    padding: 0.3rem 0;
 }
 
 /* Fin de estilos generales de cards */
@@ -99,12 +100,12 @@ figcaption >span {
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    border: 3px outset rgb(218, 214, 208);
-    background-color: rgb(235, 230, 224);
+    border: 3px outset rgb(245, 241, 235);
+    background-color: rgb(240, 227, 227);
     margin: 1.5rem 3rem;
-    padding: 0.3rem;
+    padding: 0.7rem 0.5rem;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 0 12px 0 rgb(150, 114, 114);
+    box-shadow: 0 0 12px 0 rgb(146, 104, 104);
     
 }
 
@@ -117,11 +118,11 @@ figcaption >span {
 }
 
 .card-img {
-    width: 12rem;
-    height: 11rem;
-    border: 3.5px inset rgb(247, 171, 162);
-    background-color: rgb(243, 217, 190);
+    width: 11.5rem;
+    height: 10rem;
+    padding: 0.4rem;
+    border: 3.5px inset rgb(206, 128, 120);
+    background-color: rgb(247, 211, 173);
 }
-
 /* Fin de estilos main, cards container, cards, card content y card-img */
 
